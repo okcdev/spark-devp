@@ -5,7 +5,7 @@ import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
 
 /**
-  * Created by admin on 2017/9/19.
+  * Created by fengtao.xue on 2017/9/19.
   */
 object rwHdfs {
   def main(args: Array[String]): Unit = {

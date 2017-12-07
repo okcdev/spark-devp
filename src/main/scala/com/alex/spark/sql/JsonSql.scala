@@ -6,7 +6,7 @@ import com.fasterxml.jackson.module.scala.DefaultScalaModule
 import com.fasterxml.jackson.module.scala.experimental.ScalaObjectMapper
 
 /**
-  * Created by admin on 2017/9/20.
+  * Created by fengtao.xue on 2017/9/20.
   */
 object JsonSql {
 

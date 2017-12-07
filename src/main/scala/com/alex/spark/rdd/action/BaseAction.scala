@@ -3,7 +3,7 @@ package com.alex.spark.rdd.action
 import com.alex.spark.util.SparkEnv
 
 /**
-  * Created by admin on 2017/9/19.
+  * Created by fengtao.xue on 2017/9/19.
   */
 object BaseAction {
   def baseAction():Unit = {

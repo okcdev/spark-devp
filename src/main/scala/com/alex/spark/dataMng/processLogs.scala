@@ -6,7 +6,7 @@ import org.apache.spark.rdd.RDD
 import org.spark_project.jetty.server.Authentication.User
 
 /**
-  * Created by admin on 2017/9/21.
+  * Created by fengtao.xue on 2017/9/21.
   */
 class UserID(id:String)
 class LinkInfo(topic:String, content:String)

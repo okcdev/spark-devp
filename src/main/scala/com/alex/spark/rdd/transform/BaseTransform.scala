@@ -1,6 +1,6 @@
 package com.alex.spark.rdd.transform
 /**
-  * Created by admin on 2017/9/18.
+  * Created by fengtao.xue on 2017/9/18.
   */
 import com.alex.spark.util.SparkEnv
 object BaseTransform{

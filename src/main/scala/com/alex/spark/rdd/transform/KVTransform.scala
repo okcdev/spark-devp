@@ -2,7 +2,7 @@ package com.alex.spark.rdd.transform
 import com.alex.spark.util.SparkEnv
 
 /**
-  * Created by admin on 2017/9/19.
+  * Created by fengtao.xue on 2017/9/19.
   */
 object KVTransform{
 

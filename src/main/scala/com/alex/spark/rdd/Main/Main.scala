@@ -1,5 +1,5 @@
 package com.alex.spark.rdd.Main
-import com.alex.spark.dataMng.processLogs
+import com.alex.spark.dataMng.{ProData, processLogs}
 import com.alex.spark.rdd.action.BaseAction
 import com.alex.spark.sql.{CsvSql, JsonSql}
 import com.alex.spark.util.SparkEnv
@@ -7,7 +7,7 @@ import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
 
 /**
-  * Created by admin on 2017/9/18.
+  * Created by fengtao.xue on 2017/9/18.
   */
 
 object Main{
@@ -18,7 +18,7 @@ object Main{
 
   def main(array: Array[String]): Unit ={
     val conf = new SparkConf()
-      .setMaster("spark://node01:9000")
+      .setMaster("local")
     val spark = SparkSession
       .builder()
       .appName("REST")
@@ -62,12 +62,22 @@ object Main{
     BaseAction.kvAction()
     println(s">>>>>>>>>>>>>>RDD action end<<<<<<<<<<<<<")
     */
+    /*
     println(s">>>>>>>>>>>>>> read json start<<<<<<<<<<<<<")
-    //JsonSql.loadJson()
+    JsonSql.loadJson()
     //processLogs.joinedFun()
     println(s">>>>>>>>>>>>>> read json end<<<<<<<<<<<<<")
+    */
+    /*println(s">>>>>>>>>>>>>> loading from ftp start<<<<<<<<<<<<<")
+    ProData.loadTextFromFtp()
+    println(s">>>>>>>>>>>>>> loading from ftp end<<<<<<<<<<<<<")*/
+
+//    ProData.callHttp()
+
+    ProData.loadCsv()
+
    // CsvSql.readCsv(array)
-    println(s">>>>>>>>>>>>>>*****************<<<<<<<<<<<<<")
+    //println(s">>>>>>>>>>>>>>*****************<<<<<<<<<<<<<")
     SparkEnv.sc.stop()
   }
 }
