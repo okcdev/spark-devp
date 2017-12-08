@@ -6,6 +6,7 @@ package com.alex.spark.util
 import com.typesafe.config.Config
 import org.apache.spark.SparkContext
 import org.apache.spark.sql.{SQLContext, SparkSession}
+import org.apache.spark.streaming.StreamingContext
 
 object SparkEnv{
   var initialized : Boolean = false

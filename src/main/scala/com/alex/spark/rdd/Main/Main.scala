@@ -1,5 +1,6 @@
 package com.alex.spark.rdd.Main
 import com.alex.spark.dataMng.{ProData, processLogs}
+import com.alex.spark.mllib.ClassifyRegression
 import com.alex.spark.rdd.action.BaseAction
 import com.alex.spark.sql.{CsvSql, JsonSql}
 import com.alex.spark.util.SparkEnv
@@ -74,7 +75,9 @@ object Main{
 
 //    ProData.callHttp()
 
-    ProData.loadCsv()
+//    ProData.loadCsv()
+
+    ClassifyRegression.LogistReg
 
    // CsvSql.readCsv(array)
     //println(s">>>>>>>>>>>>>>*****************<<<<<<<<<<<<<")
