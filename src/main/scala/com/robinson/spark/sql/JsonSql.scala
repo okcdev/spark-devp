@@ -1,9 +1,10 @@
-package com.alex.spark.sql
+package com.robinson.spark.sql
 
 import com.alex.spark.util.SparkEnv
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.module.scala.DefaultScalaModule
 import com.fasterxml.jackson.module.scala.experimental.ScalaObjectMapper
+import com.robinson.spark.util.SparkEnv
 
 /**
   * Created by fengtao.xue on 2017/9/20.

@@ -2,7 +2,8 @@
   * Created by fengtao.xue on 2017/9/19.
   */
 
-package com.alex.spark.util
+package com.robinson.spark.util
+
 import com.typesafe.config.Config
 import org.apache.spark.SparkContext
 import org.apache.spark.sql.{SQLContext, SparkSession}

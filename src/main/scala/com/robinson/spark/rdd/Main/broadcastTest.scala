@@ -1,4 +1,4 @@
-package com.alex.spark.rdd.Main
+package com.robinson.spark.rdd.Main
 
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.SparkSession

@@ -1,9 +1,12 @@
-package com.alex.spark.rdd.Main
+package com.robinson.spark.rdd.Main
+
 import com.alex.spark.dataMng.{ProData, processLogs}
 import com.alex.spark.mllib.ClassifyRegression
 import com.alex.spark.rdd.action.BaseAction
 import com.alex.spark.sql.{CsvSql, JsonSql}
 import com.alex.spark.util.SparkEnv
+import com.robinson.spark.mllib.ClassifyRegression
+import com.robinson.spark.util.SparkEnv
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
 

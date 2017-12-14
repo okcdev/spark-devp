@@ -1,8 +1,10 @@
-package com.alex.spark.rdd.transform
+package com.robinson.spark.rdd.transform
+
 /**
   * Created by fengtao.xue on 2017/9/18.
   */
 import com.alex.spark.util.SparkEnv
+import com.robinson.spark.util.SparkEnv
 object BaseTransform{
   def mapFun(): Unit ={
     val rdd = SparkEnv.sc.parallelize(1 to 5)

@@ -1,4 +1,4 @@
-package com.alex.spark.dataMng
+package com.robinson.spark.dataMng
 
 import java.io.{StringReader, StringWriter}
 
@@ -7,6 +7,7 @@ import com.alex.spark.util.SparkEnv
 import com.fasterxml.jackson.databind.DeserializationFeature
 import com.fasterxml.jackson.module.scala.DefaultScalaModule
 import com.fasterxml.jackson.module.scala.experimental.ScalaObjectMapper
+import com.robinson.spark.util.SparkEnv
 import org.apache.spark.sql.SparkSession
 import org.codehaus.jackson.map.ObjectMapper
 import org.eclipse.jetty.client.{ContentExchange, HttpClient}
