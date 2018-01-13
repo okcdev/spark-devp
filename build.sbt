@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-name := "spark-devp-learning"
-=======
-name := "SparkDemo"
->>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
+name := "spark-devp"
 
 version := "1.0"
 
