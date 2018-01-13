@@ -1,6 +1,5 @@
 package com.robinson.spark.rdd.hdfs
 
-import com.alex.spark.util.SparkEnv
 import com.robinson.spark.util.SparkEnv
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession

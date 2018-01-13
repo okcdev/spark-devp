@@ -3,12 +3,10 @@ package com.robinson.spark.dataMng
 import java.io.{StringReader, StringWriter}
 
 import au.com.bytecode.opencsv.{CSVReader, CSVWriter}
-import com.alex.spark.util.SparkEnv
 import com.fasterxml.jackson.databind.DeserializationFeature
 import com.fasterxml.jackson.module.scala.DefaultScalaModule
 import com.fasterxml.jackson.module.scala.experimental.ScalaObjectMapper
 import com.robinson.spark.util.SparkEnv
-import org.apache.spark.sql.SparkSession
 import org.codehaus.jackson.map.ObjectMapper
 import org.eclipse.jetty.client.{ContentExchange, HttpClient}
 
@@ -25,7 +23,7 @@ object ProData {
     val file = SparkEnv.sc.textFile("ftp://anony:alex@us01/home/data/ls-LR.gz")
     println(file.collect().mkString("\n"))
   }
-
+/*
   def loadCsv():Unit={
     val inputFile = "/fengtao.xue/data/csv/1.csv";
     val input = SparkEnv.sc.textFile(inputFile)
@@ -65,7 +63,7 @@ object ProData {
     })
       .saveAsTextFile("fengtao.xue/data/output")
   }
-
+*/
   def FlumeInput(): Unit ={
 
   }

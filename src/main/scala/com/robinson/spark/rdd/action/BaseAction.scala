@@ -1,6 +1,5 @@
 package com.robinson.spark.rdd.action
 
-import com.alex.spark.util.SparkEnv
 import com.robinson.spark.util.SparkEnv
 
 /**

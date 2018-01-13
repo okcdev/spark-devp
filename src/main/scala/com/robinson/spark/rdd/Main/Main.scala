@@ -1,14 +1,7 @@
 package com.robinson.spark.rdd.Main
 
-<<<<<<< HEAD
-=======
-import com.alex.spark.dataMng.{ProData, processLogs}
-import com.alex.spark.mllib.ClassifyRegression
-import com.alex.spark.rdd.action.BaseAction
-import com.alex.spark.sql.{CsvSql, JsonSql}
-import com.alex.spark.util.SparkEnv
->>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 import com.robinson.spark.mllib.ClassifyRegression
+import com.robinson.spark.parseCsv.ReadCsv
 import com.robinson.spark.util.SparkEnv
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
@@ -28,7 +21,7 @@ object Main{
       .setMaster("local")
     val spark = SparkSession
       .builder()
-      .appName("REST")
+      .appName("spar-devp-app")
       .config(conf)
       .getOrCreate()
     //initialize sparksession
@@ -83,7 +76,10 @@ object Main{
 
 //    ProData.loadCsv()
 
-    ClassifyRegression.LogistReg
+    //ClassifyRegression.LogistReg
+
+    val path:String = "."//当前工程根路径
+    ReadCsv.loadCsvFile(path)
 
    // CsvSql.readCsv(array)
     //println(s">>>>>>>>>>>>>>*****************<<<<<<<<<<<<<")

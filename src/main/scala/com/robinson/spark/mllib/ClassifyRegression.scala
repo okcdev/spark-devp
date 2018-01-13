@@ -1,6 +1,5 @@
 package com.robinson.spark.mllib
 
-import com.alex.spark.util.SparkEnv
 import com.robinson.spark.util.SparkEnv
 import org.apache.spark.mllib.classification.LogisticRegressionWithSGD
 import org.apache.spark.mllib.feature.HashingTF

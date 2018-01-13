@@ -1,10 +1,7 @@
 package com.robinson.spark.dataMng
 
-import com.alex.spark.util.SparkEnv
 import com.robinson.spark.util.SparkEnv
 import org.apache.spark.HashPartitioner
-import org.apache.spark.rdd.RDD
-import org.spark_project.jetty.server.Authentication.User
 
 /**
   * Created by fengtao.xue on 2017/9/21.
