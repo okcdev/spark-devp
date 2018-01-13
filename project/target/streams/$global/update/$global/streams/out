@@ -1,11 +1,21 @@
+<<<<<<< HEAD
 [info] Updating {file:/D:/APPS_WORK/IdeaProjects/spark-devp/project/}spark-devp-build...
 [debug] :: resolving dependencies :: default#spark-devp-build;0.1-SNAPSHOT
+=======
+[info] Updating {file:/D:/APPS_WORK/IdeaProjects/SparkDemo/project/}sparkdemo-build...
+[debug] :: resolving dependencies :: default#sparkdemo-build;0.1-SNAPSHOT
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
+<<<<<<< HEAD
 [debug] == resolving dependencies for default#spark-devp-build;0.1-SNAPSHOT [compile]
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->me.lessis#bintray-sbt;0.3.0 [compile->default(compile)]
+=======
+[debug] == resolving dependencies for default#sparkdemo-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->me.lessis#bintray-sbt;0.3.0 [compile->default(compile)]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [info] Resolving me.lessis#bintray-sbt;0.3.0 ...
@@ -521,7 +531,11 @@
 [debug] == resolving dependencies org.slf4j#slf4j-nop;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.slf4j#slf4j-nop;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
 [debug] == resolving dependencies me.lessis#bintray-sbt;0.3.0->org.slf4j#slf4j-nop;1.7.7 [compile->master]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.1 [compile->default(compile)]
+=======
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.1 [compile->default(compile)]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [info] Resolving com.eed3si9n#sbt-assembly;0.14.1 ...
@@ -826,15 +840,24 @@
 [debug] == resolving dependencies org.pantsbuild#jarjar;1.6.0->org.apache.maven#maven-plugin-api;3.3.3 [runtime->runtime(*)]
 [debug] == resolving dependencies org.pantsbuild#jarjar;1.6.0->org.apache.maven#maven-plugin-api;3.3.3 [runtime->compile]
 [debug] == resolving dependencies com.eed3si9n#sbt-assembly;0.14.1->org.pantsbuild#jarjar;1.6.0 [compile->master]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->default(compile)]
+=======
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->default(compile)]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [info] Resolving net.virtual-void#sbt-dependency-graph;0.8.2 ...
 [debug] sbt-chain: Checking cache for: dependency: net.virtual-void#sbt-dependency-graph;0.8.2 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: net.virtual-void#sbt-dependency-graph;0.8.2
 [debug] 	found net.virtual-void#sbt-dependency-graph;0.8.2 in sbt-chain
+<<<<<<< HEAD
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->runtime]
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->compile]
+=======
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->runtime]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->compile]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.8.2->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master(compile)]
@@ -883,15 +906,25 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.8.2->com.github.mdr#ascii-graphs_2.10;0.0.3 [runtime->runtime(*)]
 [debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.8.2->com.github.mdr#ascii-graphs_2.10;0.0.3 [runtime->compile]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->master]
+=======
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->master]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] resolving dependencies for configuration 'runtime'
+<<<<<<< HEAD
 [debug] == resolving dependencies for default#spark-devp-build;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#spark-devp-build;0.1-SNAPSHOT [compile]
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->me.lessis#bintray-sbt;0.3.0 [compile->default(compile)]
+=======
+[debug] == resolving dependencies for default#sparkdemo-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#sparkdemo-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->me.lessis#bintray-sbt;0.3.0 [compile->default(compile)]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -1365,7 +1398,11 @@
 [debug] == resolving dependencies org.slf4j#slf4j-nop;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.slf4j#slf4j-nop;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
 [debug] == resolving dependencies me.lessis#bintray-sbt;0.3.0->org.slf4j#slf4j-nop;1.7.7 [compile->master]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.1 [compile->default(compile)]
+=======
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.1 [compile->default(compile)]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -1624,13 +1661,22 @@
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->org.codehaus.plexus#plexus-utils;3.0.20 [runtime->runtime(*)]
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->org.codehaus.plexus#plexus-utils;3.0.20 [runtime->compile]
 [debug] == resolving dependencies com.eed3si9n#sbt-assembly;0.14.1->org.pantsbuild#jarjar;1.6.0 [compile->master]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->default(compile)]
+=======
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->default(compile)]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
+<<<<<<< HEAD
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->runtime]
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->compile]
+=======
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->runtime]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->compile]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.8.2->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master(compile)]
@@ -1675,16 +1721,27 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
 [debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->master]
+=======
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->master]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] resolving dependencies for configuration 'test'
+<<<<<<< HEAD
 [debug] == resolving dependencies for default#spark-devp-build;0.1-SNAPSHOT [test]
 [debug] == resolving dependencies for default#spark-devp-build;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#spark-devp-build;0.1-SNAPSHOT [compile]
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->me.lessis#bintray-sbt;0.3.0 [compile->default(compile)]
+=======
+[debug] == resolving dependencies for default#sparkdemo-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#sparkdemo-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#sparkdemo-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->me.lessis#bintray-sbt;0.3.0 [compile->default(compile)]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -2192,7 +2249,11 @@
 [debug] == resolving dependencies org.slf4j#slf4j-nop;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.slf4j#slf4j-nop;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
 [debug] == resolving dependencies me.lessis#bintray-sbt;0.3.0->org.slf4j#slf4j-nop;1.7.7 [compile->master]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.1 [compile->default(compile)]
+=======
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.1 [compile->default(compile)]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -2489,15 +2550,24 @@
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->org.codehaus.plexus#plexus-utils;3.0.20 [runtime->runtime(*)]
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->org.codehaus.plexus#plexus-utils;3.0.20 [runtime->compile]
 [debug] == resolving dependencies com.eed3si9n#sbt-assembly;0.14.1->org.pantsbuild#jarjar;1.6.0 [compile->master]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->default(compile)]
+=======
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->default(compile)]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
+<<<<<<< HEAD
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->runtime]
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->compile]
+=======
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->runtime]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->compile]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.8.2->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master(compile)]
@@ -2544,12 +2614,17 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
 [debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->master]
+=======
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->master]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] resolving dependencies for configuration 'provided'
+<<<<<<< HEAD
 [debug] == resolving dependencies for default#spark-devp-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -2558,6 +2633,16 @@
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.16 [provided->default(compile)]
+=======
+[debug] == resolving dependencies for default#sparkdemo-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.16 [provided->default(compile)]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [info] Resolving org.scala-sbt#sbt;0.13.16 ...
@@ -4320,11 +4405,19 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'optional'
+<<<<<<< HEAD
 [debug] == resolving dependencies for default#spark-devp-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
 [debug] == resolving dependencies for default#spark-devp-build;0.1-SNAPSHOT [compile-internal]
 [debug] == resolving dependencies for default#spark-devp-build;0.1-SNAPSHOT [compile]
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->me.lessis#bintray-sbt;0.3.0 [compile->default(compile)]
+=======
+[debug] == resolving dependencies for default#sparkdemo-build;0.1-SNAPSHOT [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for default#sparkdemo-build;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#sparkdemo-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->me.lessis#bintray-sbt;0.3.0 [compile->default(compile)]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -4866,7 +4959,11 @@
 [debug] == resolving dependencies org.slf4j#slf4j-nop;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.slf4j#slf4j-nop;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
 [debug] == resolving dependencies me.lessis#bintray-sbt;0.3.0->org.slf4j#slf4j-nop;1.7.7 [compile->master]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.1 [compile->default(compile)]
+=======
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.1 [compile->default(compile)]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -5201,7 +5298,11 @@
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->org.codehaus.plexus#plexus-utils;3.0.20 [runtime->runtime(*)]
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->org.codehaus.plexus#plexus-utils;3.0.20 [runtime->compile]
 [debug] == resolving dependencies com.eed3si9n#sbt-assembly;0.14.1->org.pantsbuild#jarjar;1.6.0 [compile->master]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->default(compile)]
+=======
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->default(compile)]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -5210,8 +5311,13 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
+<<<<<<< HEAD
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->runtime]
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->compile]
+=======
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->runtime]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->compile]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.8.2->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master(compile)]
@@ -5260,11 +5366,16 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
 [debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->master]
+=======
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->master]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+<<<<<<< HEAD
 [debug] == resolving dependencies for default#spark-devp-build;0.1-SNAPSHOT [optional]
 [debug] == resolving dependencies for default#spark-devp-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
@@ -5272,6 +5383,15 @@
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.16 [provided->default(compile)]
+=======
+[debug] == resolving dependencies for default#sparkdemo-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#sparkdemo-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.16 [provided->default(compile)]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -6960,10 +7080,17 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'runtime-internal'
+<<<<<<< HEAD
 [debug] == resolving dependencies for default#spark-devp-build;0.1-SNAPSHOT [runtime-internal]
 [debug] == resolving dependencies for default#spark-devp-build;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#spark-devp-build;0.1-SNAPSHOT [compile]
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->me.lessis#bintray-sbt;0.3.0 [compile->default(compile)]
+=======
+[debug] == resolving dependencies for default#sparkdemo-build;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#sparkdemo-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#sparkdemo-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->me.lessis#bintray-sbt;0.3.0 [compile->default(compile)]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -7505,7 +7632,11 @@
 [debug] == resolving dependencies org.slf4j#slf4j-nop;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.slf4j#slf4j-nop;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
 [debug] == resolving dependencies me.lessis#bintray-sbt;0.3.0->org.slf4j#slf4j-nop;1.7.7 [compile->master]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.1 [compile->default(compile)]
+=======
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.1 [compile->default(compile)]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -7840,7 +7971,11 @@
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->org.codehaus.plexus#plexus-utils;3.0.20 [runtime->runtime(*)]
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->org.codehaus.plexus#plexus-utils;3.0.20 [runtime->compile]
 [debug] == resolving dependencies com.eed3si9n#sbt-assembly;0.14.1->org.pantsbuild#jarjar;1.6.0 [compile->master]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->default(compile)]
+=======
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->default(compile)]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -7849,8 +7984,13 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
+<<<<<<< HEAD
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->runtime]
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->compile]
+=======
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->runtime]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->compile]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.8.2->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master(compile)]
@@ -7899,11 +8039,16 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
 [debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->master]
+=======
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->master]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+<<<<<<< HEAD
 [debug] == resolving dependencies for default#spark-devp-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for default#spark-devp-build;0.1-SNAPSHOT [test-internal]
@@ -7911,6 +8056,15 @@
 [debug] == resolving dependencies for default#spark-devp-build;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#spark-devp-build;0.1-SNAPSHOT [compile]
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->me.lessis#bintray-sbt;0.3.0 [compile->default(compile)]
+=======
+[debug] == resolving dependencies for default#sparkdemo-build;0.1-SNAPSHOT [optional]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for default#sparkdemo-build;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#sparkdemo-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#sparkdemo-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#sparkdemo-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->me.lessis#bintray-sbt;0.3.0 [compile->default(compile)]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -8520,7 +8674,11 @@
 [debug] == resolving dependencies org.slf4j#slf4j-nop;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.slf4j#slf4j-nop;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
 [debug] == resolving dependencies me.lessis#bintray-sbt;0.3.0->org.slf4j#slf4j-nop;1.7.7 [compile->master]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.1 [compile->default(compile)]
+=======
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.1 [compile->default(compile)]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -8931,7 +9089,11 @@
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->org.codehaus.plexus#plexus-utils;3.0.20 [runtime->runtime(*)]
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->org.codehaus.plexus#plexus-utils;3.0.20 [runtime->compile]
 [debug] == resolving dependencies com.eed3si9n#sbt-assembly;0.14.1->org.pantsbuild#jarjar;1.6.0 [compile->master]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->default(compile)]
+=======
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->default(compile)]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -8944,8 +9106,13 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
+<<<<<<< HEAD
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->runtime]
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->compile]
+=======
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->runtime]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->compile]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.8.2->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master(compile)]
@@ -8998,11 +9165,16 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
 [debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->master]
+=======
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->master]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+<<<<<<< HEAD
 [debug] == resolving dependencies for default#spark-devp-build;0.1-SNAPSHOT [optional]
 [debug] == resolving dependencies for default#spark-devp-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
@@ -9010,6 +9182,15 @@
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.16 [provided->default(compile)]
+=======
+[debug] == resolving dependencies for default#sparkdemo-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#sparkdemo-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.16 [provided->default(compile)]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -10878,6 +11059,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'plugin'
+<<<<<<< HEAD
 [debug] == resolving dependencies for default#spark-devp-build;0.1-SNAPSHOT [plugin]
 [debug] resolving dependencies for configuration 'sources'
 [debug] == resolving dependencies for default#spark-devp-build;0.1-SNAPSHOT [sources]
@@ -10892,6 +11074,22 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->runtime]
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->compile]
+=======
+[debug] == resolving dependencies for default#sparkdemo-build;0.1-SNAPSHOT [plugin]
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for default#sparkdemo-build;0.1-SNAPSHOT [sources]
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for default#sparkdemo-build;0.1-SNAPSHOT [docs]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for default#sparkdemo-build;0.1-SNAPSHOT [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for default#sparkdemo-build;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->default]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->runtime]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->compile]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]}
@@ -10957,14 +11155,22 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->compile]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->master]
+=======
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->master]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]}
+<<<<<<< HEAD
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->optional(default)]
+=======
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->optional(default)]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]}
@@ -11020,11 +11226,19 @@
 [debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
 [debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#jline;2.10.6->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->default]
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime]
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile]
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->master]
 [debug] == resolving dependencies default#spark-devp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->optional(default)]
+=======
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->default]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->master]
+[debug] == resolving dependencies default#sparkdemo-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->optional(default)]
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
@@ -11112,6 +11326,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
+<<<<<<< HEAD
 [debug] :: resolution report :: resolve 5937ms :: artifacts dl 1222ms
 [debug] 	report for default#spark-devp-build;0.1-SNAPSHOT compile produced in D:\APPS_WORK\IdeaProjects\spark-devp\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-spark-devp-build-compile.xml
 [debug] 	report for default#spark-devp-build;0.1-SNAPSHOT runtime produced in D:\APPS_WORK\IdeaProjects\spark-devp\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-spark-devp-build-runtime.xml
@@ -11127,4 +11342,21 @@
 [debug] 	report for default#spark-devp-build;0.1-SNAPSHOT pom produced in D:\APPS_WORK\IdeaProjects\spark-devp\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-spark-devp-build-pom.xml
 [debug] 	report for default#spark-devp-build;0.1-SNAPSHOT scala-tool produced in D:\APPS_WORK\IdeaProjects\spark-devp\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-spark-devp-build-scala-tool.xml
 [debug] 	resolve done (5937ms resolve - 1222ms download)
+=======
+[debug] :: resolution report :: resolve 5554ms :: artifacts dl 2375ms
+[debug] 	report for default#sparkdemo-build;0.1-SNAPSHOT compile produced in D:\APPS_WORK\IdeaProjects\SparkDemo\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-sparkdemo-build-compile.xml
+[debug] 	report for default#sparkdemo-build;0.1-SNAPSHOT runtime produced in D:\APPS_WORK\IdeaProjects\SparkDemo\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-sparkdemo-build-runtime.xml
+[debug] 	report for default#sparkdemo-build;0.1-SNAPSHOT test produced in D:\APPS_WORK\IdeaProjects\SparkDemo\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-sparkdemo-build-test.xml
+[debug] 	report for default#sparkdemo-build;0.1-SNAPSHOT provided produced in D:\APPS_WORK\IdeaProjects\SparkDemo\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-sparkdemo-build-provided.xml
+[debug] 	report for default#sparkdemo-build;0.1-SNAPSHOT optional produced in D:\APPS_WORK\IdeaProjects\SparkDemo\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-sparkdemo-build-optional.xml
+[debug] 	report for default#sparkdemo-build;0.1-SNAPSHOT compile-internal produced in D:\APPS_WORK\IdeaProjects\SparkDemo\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-sparkdemo-build-compile-internal.xml
+[debug] 	report for default#sparkdemo-build;0.1-SNAPSHOT runtime-internal produced in D:\APPS_WORK\IdeaProjects\SparkDemo\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-sparkdemo-build-runtime-internal.xml
+[debug] 	report for default#sparkdemo-build;0.1-SNAPSHOT test-internal produced in D:\APPS_WORK\IdeaProjects\SparkDemo\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-sparkdemo-build-test-internal.xml
+[debug] 	report for default#sparkdemo-build;0.1-SNAPSHOT plugin produced in D:\APPS_WORK\IdeaProjects\SparkDemo\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-sparkdemo-build-plugin.xml
+[debug] 	report for default#sparkdemo-build;0.1-SNAPSHOT sources produced in D:\APPS_WORK\IdeaProjects\SparkDemo\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-sparkdemo-build-sources.xml
+[debug] 	report for default#sparkdemo-build;0.1-SNAPSHOT docs produced in D:\APPS_WORK\IdeaProjects\SparkDemo\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-sparkdemo-build-docs.xml
+[debug] 	report for default#sparkdemo-build;0.1-SNAPSHOT pom produced in D:\APPS_WORK\IdeaProjects\SparkDemo\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-sparkdemo-build-pom.xml
+[debug] 	report for default#sparkdemo-build;0.1-SNAPSHOT scala-tool produced in D:\APPS_WORK\IdeaProjects\SparkDemo\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-sparkdemo-build-scala-tool.xml
+[debug] 	resolve done (5554ms resolve - 2375ms download)
+>>>>>>> 4307a02c4711b9a71360d1ea053b6eb2c3d9c217
 [info] Done updating.
