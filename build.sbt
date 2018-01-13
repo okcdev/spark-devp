@@ -1,4 +1,4 @@
-name := "SparkDemo"
+name := "spark-devp-learning"
 
 version := "1.0"
 
@@ -9,6 +9,9 @@ val gtVersion = "1.0.0-SNAPSHOT"
 libraryDependencies ++=  Seq(
   "org.apache.spark"     %    "spark-core_2.11"     %     "2.0.0",
   "org.apache.spark"     %    "spark-sql_2.11"      %     "2.0.0",
+  "org.apache.spark"     %    "spark-streaming_2.11"    %  "2.0.0",
+  "org.apache.spark"     %    "spark-mllib_2.11"     %     "2.0.0",
+  "org.apache.spark"     %    "spark-hive_2.11"     %     "2.0.0",
   "com.typesafe.akka"    %    "akka-actor_2.11"     %     "2.4.4",
   "org.eclipse.jetty"  % "jetty-client" % "8.1.14.v20131031",
   "net.sf.opencsv" % "opencsv" % "2.0"
