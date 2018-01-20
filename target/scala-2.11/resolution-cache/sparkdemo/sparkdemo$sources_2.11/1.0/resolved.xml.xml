@@ -4,7 +4,7 @@
 		module="sparkdemo$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20171207171236"
+		publication="20180113235328"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

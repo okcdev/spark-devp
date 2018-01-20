@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20171207171228"/>
+		date="20180113235308"/>
 	<dependencies>
 		<module organisation="org.eclipse.jetty" name="jetty-client">
 			<revision name="8.1.14.v20131031" status="release" pubdate="20131031234608" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="185">
@@ -1666,7 +1666,7 @@
 		</module>
 		<module organisation="org.apache.curator" name="curator-recipes">
 			<revision name="2.4.0" status="release" pubdate="20140206070911" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="64">
-				<license name="The Apache Software License, Version 2.0" url="file://D:\APPS_WORK\IdeaProjects\SparkDataFrame/LICENSE"/>
+				<license name="The Apache Software License, Version 2.0" url="file://D:\APPS_WORK\IdeaProjects\spark-devp/LICENSE"/>
 				<metadata-artifact status="no" details="" size="7690" time="0" location="C:\Users\admin\.ivy2\cache\org.apache.curator\curator-recipes\ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.4.0/curator-recipes-2.4.0.pom"/>
 				<caller organisation="org.apache.spark" name="spark-core_2.11" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.0.0"/>
 				<artifacts>
@@ -1678,7 +1678,7 @@
 		</module>
 		<module organisation="org.apache.curator" name="curator-framework">
 			<revision name="2.4.0" status="release" pubdate="20140206070848" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="65">
-				<license name="The Apache Software License, Version 2.0" url="file://D:\APPS_WORK\IdeaProjects\SparkDataFrame/LICENSE"/>
+				<license name="The Apache Software License, Version 2.0" url="file://D:\APPS_WORK\IdeaProjects\spark-devp/LICENSE"/>
 				<metadata-artifact status="no" details="" size="7537" time="0" location="C:\Users\admin\.ivy2\cache\org.apache.curator\curator-framework\ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.4.0/curator-framework-2.4.0.pom"/>
 				<caller organisation="org.apache.curator" name="curator-recipes" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
 				<artifacts>
@@ -1690,7 +1690,7 @@
 		</module>
 		<module organisation="org.apache.curator" name="curator-client">
 			<revision name="2.4.0" status="release" pubdate="20140206070826" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="66">
-				<license name="The Apache Software License, Version 2.0" url="file://D:\APPS_WORK\IdeaProjects\SparkDataFrame/LICENSE"/>
+				<license name="The Apache Software License, Version 2.0" url="file://D:\APPS_WORK\IdeaProjects\spark-devp/LICENSE"/>
 				<metadata-artifact status="no" details="" size="7585" time="0" location="C:\Users\admin\.ivy2\cache\org.apache.curator\curator-client\ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.4.0/curator-client-2.4.0.pom"/>
 				<caller organisation="org.apache.curator" name="curator-framework" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
 				<artifacts>
