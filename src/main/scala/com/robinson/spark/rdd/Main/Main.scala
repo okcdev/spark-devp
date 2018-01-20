@@ -2,6 +2,7 @@ package com.robinson.spark.rdd.Main
 
 import com.robinson.spark.mllib.ClassifyRegression
 import com.robinson.spark.parseCsv.ReadCsv
+import com.robinson.spark.sql.LoadHive
 import com.robinson.spark.util.SparkEnv
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
@@ -78,8 +79,10 @@ object Main{
 
     //ClassifyRegression.LogistReg
 
-    val path:String = "."//当前工程根路径
-    ReadCsv.loadCsvFile(path)
+    //val path:String = "."//当前工程根路径
+    //ReadCsv.loadCsvFile(path)
+
+    LoadHive.load2hive()
 
    // CsvSql.readCsv(array)
     //println(s">>>>>>>>>>>>>>*****************<<<<<<<<<<<<<")
