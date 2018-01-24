@@ -20,10 +20,12 @@ object Main{
   def main(array: Array[String]): Unit ={
     val conf = new SparkConf()
       .setMaster("local")
+      .set("spark.sql.warehouse.dir","hdfs://us01:9000/hive/warehouse")
     val spark = SparkSession
       .builder()
       .appName("spar-devp-app")
       .config(conf)
+      .enableHiveSupport()
       .getOrCreate()
     //initialize sparksession
     initSpark(spark)
@@ -79,13 +81,17 @@ object Main{
 
     //ClassifyRegression.LogistReg
 
-    //val path:String = "."//当前工程根路径
-    //ReadCsv.loadCsvFile(path)
+    /*
+    println(s">>>>>>>>>>>>>> load csvfile start<<<<<<<<<<<<<")
+    val path:String = "."//当前工程根路径
+    ReadCsv.loadCsvFile(path)
+    println(s">>>>>>>>>>>>>> load csvfile end<<<<<<<<<<<<<")
+    */
 
+    println(s">>>>>>>>>>>>>> load2hive start<<<<<<<<<<<<<")
     LoadHive.load2hive()
+    println(s">>>>>>>>>>>>>> load2hive end<<<<<<<<<<<<<")
 
-   // CsvSql.readCsv(array)
-    //println(s">>>>>>>>>>>>>>*****************<<<<<<<<<<<<<")
     SparkEnv.sc.stop()
   }
 }

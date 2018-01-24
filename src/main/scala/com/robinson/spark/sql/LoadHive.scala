@@ -9,11 +9,14 @@ import org.apache.spark.sql.hive.HiveContext
 object LoadHive {
 
   def load2hive():Unit={
-    val hiveContext = new HiveContext(SparkEnv.sc)
-    val sqlStr = "select manfname,brandname,networkname,dealergroupname,cityname from mid_dealer_networks limit 20"
-    hiveContext.sql("use mydb")
-    val result = hiveContext.sql(sqlStr).toDF()
-    println(s"*********result count: " + result.count())
+    val sc = SparkEnv.sc
+    val hiveContext = new HiveContext(sc)
+    import hiveContext.implicits._
+    import hiveContext.sql
+    val sqlStr = "select manfname,brandname,networkname,dealergroupname,cityname from mydb.mid_dealer_networks limit 20"
+    sql("use mydb")
+    val result = sql(sqlStr).toDF()
+    println(s"*********result count : " + result.count())
     result.show()
   }
 
