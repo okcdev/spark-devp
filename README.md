@@ -8,6 +8,7 @@ hadoop: 2.7.0
 scala: 2.1.1
 jdk: 1.8
 hive: 2.1.1
+hbase: 1.1.11
 sbt: 2.13.6
 
 # Main
