@@ -12,11 +12,15 @@ libraryDependencies ++=  Seq(
   "org.apache.spark"     %    "spark-streaming_2.11"    %  "2.0.0",
   "org.apache.spark"     %    "spark-mllib_2.11"     %     "2.0.0",
   "org.apache.spark"     %    "spark-hive_2.11"     %     "2.0.0",
+  "org.apache.hbase"     %    "hbase-common"        %     "1.1.11",
+  "org.apache.hbase"     %    "hbase-client"        %     "1.1.11",
+  "org.apache.hbase"     %    "hbase-server"        %     "1.1.11",
+  "org.apache.hbase"     %    "hbase-protocol"      %      "1.1.11",
   "com.typesafe.akka"    %    "akka-actor_2.11"     %     "2.4.4",
-  "org.eclipse.jetty"  % "jetty-client" % "8.1.14.v20131031",
-  "net.sf.opencsv" % "opencsv" % "2.0",
-  "mysql" % "mysql-connector-java" %  "5.1.41",
-  "com.databricks"     %    "spark-csv_2.11"     %     "1.5.0"
+  "org.eclipse.jetty"    %    "jetty-client"        %     "8.1.14.v20131031",
+  "net.sf.opencsv"       %    "opencsv"             %     "2.0",
+  "mysql"                %    "mysql-connector-java" %    "5.1.41",
+  "com.databricks"       %    "spark-csv_2.11"       %     "1.5.0"
 )
 
 ivyScala := ivyScala.value map { _.copy(overrideScalaVersion = true) }
