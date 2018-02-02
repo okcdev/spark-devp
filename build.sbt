@@ -9,7 +9,7 @@ val gtVersion = "1.0.0-SNAPSHOT"
 libraryDependencies ++=  Seq(
   "org.apache.spark"     %    "spark-core_2.11"     %     "2.0.0",
   "org.apache.spark"     %    "spark-sql_2.11"      %     "2.0.0",
-  "org.apache.spark"     %    "spark-streaming_2.11"    %  "2.0.0",
+  "org.apache.spark"     %    "spark-streaming_2.11" %    "2.0.0",
   "org.apache.spark"     %    "spark-mllib_2.11"     %     "2.0.0",
   "org.apache.spark"     %    "spark-hive_2.11"     %     "2.0.0",
   "org.apache.hbase"     %    "hbase-common"        %     "1.1.11",
