@@ -20,7 +20,7 @@ object LoadHbase {
     //设置zooKeeper集群地址，也可以通过将hbase-site.xml导入classpath，但是建议在程序里这样设置
     conf.set(HConstants.ZOOKEEPER_QUORUM, "IP:PORT")
     conf.set(HConstants.ZOOKEEPER_ZNODE_PARENT, "/hbase-unsecure");
-    val hbaseContext = new HBaseContext(sc, conf)
+    //val hbaseContext = new HBaseContext(sc, conf)
     //创建一个扫描对象
     val scan = new Scan
     //val hbaseRdd = hbaseContext.hbaseRDD(TableName.valueOf(tablename), scan)
@@ -80,7 +80,7 @@ object LoadHbase {
     println("********" + catalog)
     val sqlContext = new SQLContext(sc);
 
-    def withCatalog(cat: String): DataFrame = {
+    /*def withCatalog(cat: String): DataFrame = {
       sqlContext
         .read
         .options(Map(HBaseTableCatalog.tableCatalog -> cat))
@@ -88,7 +88,7 @@ object LoadHbase {
         .load()
     }
     val df = withCatalog(catalog)
-    df.show()
+    df.show()*/
 
     // 关闭资源
     results.close()
