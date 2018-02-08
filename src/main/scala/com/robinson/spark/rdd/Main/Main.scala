@@ -79,7 +79,7 @@ object Main{
 
 //    ProData.loadCsv()
 
-    //ClassifyRegression.LogistReg
+    ClassifyRegression.LogistReg
 
     /*
     println(s">>>>>>>>>>>>>> load csvfile start<<<<<<<<<<<<<")
@@ -88,9 +88,9 @@ object Main{
     println(s">>>>>>>>>>>>>> load csvfile end<<<<<<<<<<<<<")
     */
 
-    println(s">>>>>>>>>>>>>> load2hive start<<<<<<<<<<<<<")
+    /*println(s">>>>>>>>>>>>>> load2hive start<<<<<<<<<<<<<")
     LoadHive.load2hive()
-    println(s">>>>>>>>>>>>>> load2hive end<<<<<<<<<<<<<")
+    println(s">>>>>>>>>>>>>> load2hive end<<<<<<<<<<<<<")*/
 
     SparkEnv.sc.stop()
   }
