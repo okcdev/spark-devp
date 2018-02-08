@@ -12,6 +12,7 @@ object ClassifyRegression {
 
   def LogistReg():Unit= {
 
+
     //load spam and ham emails from text files
     val spam = SparkEnv.sc.textFile("data/spam.txt")
     val ham = SparkEnv.sc.textFile("data/ham.txt")
